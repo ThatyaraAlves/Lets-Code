@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+:root{
+    --cor0:#F2D8C9; 
+    --cor1:#D9BEB8;
+    --cor2:#95A389;
+    --cor3:#8C6E64;
+    --cor4:#40241E;
+
+    --fonte-header: 'Dancing Script', Arial;
+    --fonte-padrao: 'Times New Roman', Times, serif;
+
+}
+
+header{
+    font-family: var(--fonte-header);
+    
+    background-color: #f3ece8;    
+    padding: 10px 10px 30px 10px;
+    margin: 10px -10px -10px -10px;
+    
+}
+header > h1{
+    text-align: center;
+    padding: 50px 10px 10px 10px;
+    font-size: 3em;
+}
+div.barra-pesquisa{
+    background-color: var(--cor4);
+    margin: -21px -10px 15px -11px;
+    padding: 10px 10px 10px 10px;
+    text-align: right;
+
+}
+
+nav{
+    background-color: #f3ece8;
+    margin: 10px -10px 10px -10px;
+    padding: 10px 10px 10px 10px;
+}
+
+div > a{
+    text-decoration: none;
+    border-radius: 3px;
+    color: var(--cor4);
+    padding: 10px 10px 10px 10px;
+    font: normal bold 0.9em var(--fonte-padrao);
+    margin: 5px 20px 5px 20px;
+    transition-duration: 0.3s;
+    /*     opacity: 1;
+    transition: opacity .4s;
+    transition-delay: 0ms; */
+}
+
+a:hover{
+    
+    background-color: var(--cor1);
+    color: var(--cor4);
+}
+div{
+    text-align: center;
+}
+.search{
+    width: 139px;
+    background: #dedede;
+    border-radius: 17px;
+    padding: 0px 11px 10px 39px;
+    color: #fff;
+}
