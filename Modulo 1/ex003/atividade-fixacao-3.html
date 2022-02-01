@@ -7,22 +7,12 @@
     <link rel="shortcut icon" href="grafico-de-pizza.png" type="image/x-icon">
 </head>
 <body>
-    <!-- - Utilizar as tags semânticas para juntar o conteúdo das Atividades 01 e 02;
-- Cada atividade deverá ter sua própria section;
-- Escrevam um article sobre algum tema;
-- Deve ter um main e um aside, pelo menos;
-- Aplicar estilização em todas as tags utilizadas (tanto faz externo, interno ou inline).
-
-Enviar no espaço do exercício do Class, com o título igual ao desse post, até segunda-feira -->
-
-<!-- aside -> atividade1 = sobre o autor(...)
-    atividade 2-> main + alguma coisa sobre algum curso
--->
+   
 
 <header>
     <h1>Pesquisa e Inovação </h1>
 </header>
-<nav>
+<nav class="home-page">
     <a href="#">Home</a>
     <a href="#">Notícias</a>
     <a href="#">Curiosidades</a>
@@ -31,288 +21,289 @@ Enviar no espaço do exercício do Class, com o título igual ao desse post, at�
 
 <main>
     
-        <div>
+        <div class="pesquisa">
             <h2>Pesquisa sobre a demanda por cursos universitários</h2>
             <p>A presente pesquisa busca fazer um apanhado geral dos cursos mais procurados pelos alunos da região <b>Centro-Oeste</b> brasileira.</p>
             <table>
                 <thead>
                     <tr>
-                        <th class= "center-text"style="border: 1px solid black" class="white-background" colspan="6">Pesquisa com os alunos do Centro-Oeste</th>
+                        <th class= "center-text" class="white-background" colspan="6">Pesquisa com os alunos do Centro-Oeste</th>
                     </tr>
                     <tr>
-                        <th style="border: 1px solid black">Id do aluno</th>
-                        <th style="border: 1px solid black">Sigla - UF</th>
-                        <th style="border: 1px solid black">Sexo</th>
-                        <th style="border: 1px solid black">Idade</th>
-                        <th style="border: 1px solid black">Curso escolhido</th>
+                        <th>Id do aluno</th>
+                        <th>Sigla - UF</th>
+                        <th>Sexo</th>
+                        <th>Idade</th>
+                        <th>Curso escolhido</th>
             
                     </tr>
                 </thead>
             
                 <tbody>
                     <tr>
-                        <td style="border: 1px solid black">15854814</td>
-                        <td style="border: 1px solid black" class="df-color">DF</td>
-                        <td style="border: 1px solid black">F</td>
-                        <td style="border: 1px solid black">15</td>
-                        <td style="border: 1px solid">Medicina Veterinária</td>
+                        <td>15854814</td>
+                        <td class="df-color">DF</td>
+                        <td>F</td>
+                        <td>15</td>
+                        <td>Medicina Veterinária</td>
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">16053270</td>
-                        <td style="border: 1px solid black"class="mt-color">MT</td>
-                        <td style="border: 1px solid black">F</td>
-                        <td style="border: 1px solid black">16</td>
-                        <td style="border: 1px solid">Letras</td>
-            
-                    </tr>
-            
-                    <tr>
-                        <td style="border: 1px solid black">15843187</td>
-                        <td style="border: 1px solid black" rowspan="3" class="go-color">GO</td>
-                        <td style="border: 1px solid black">M</td>
-                        <td style="border: 1px solid black">15</td>
-                        <td style="border: 1px solid">Agronomia</td>
+                        <td>16053270</td>
+                        <td class="mt-color">MT</td>
+                        <td>F</td>
+                        <td>16</td>
+                        <td>Letras</td>
             
                     </tr>
             
                     <tr>
-                        <td style="border: 1px solid black">15858484</td>
-            
-                        <td style="border: 1px solid black" >M</td>
-                        <td style="border: 1px solid black">16</td>
-                        <td style="border: 1px solid">Filosofia</td>
+                        <td>15843187</td>
+                        <td class="go-color">GO</td>
+                        <td>M</td>
+                        <td>15</td>
+                        <td>Agronomia</td>
             
                     </tr>
             
                     <tr>
-                        <td style="border: 1px solid black">15887610</td>
-                        <td style="border: 1px solid black">M</td>
-                        <td style="border: 1px solid black">15</td>
-                        <td style="border: 1px solid">Engenharia Elétrica</td>
+                        <td>15858484</td>
+                        <td class="go-color">GO</td>
+                        <td >M</td>
+                        <td>16</td>
+                        <td>Filosofia</td>
+            
+                    </tr>
+            
+                    <tr>
+                        <td>15887610</td>
+                        <td class="go-color">GO</td>
+                        <td>M</td>
+                        <td>15</td>
+                        <td>Engenharia Elétrica</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">15841765</td>
-                        <td style="border: 1px solid black"class="mt-color">MT</td>
-                        <td style="border: 1px solid black">F</td>
-                        <td style="border: 1px solid black">16</td>
-                        <td style="border: 1px solid">Artes Cênicas</td>
+                        <td>15841765</td>
+                        <td class="mt-color">MT</td>
+                        <td>F</td>
+                        <td>16</td>
+                        <td>Artes Cênicas</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">15858484</td>
-                        <td style="border: 1px solid black" rowspan="2" class="df-color">DF</td>
-                        <td style="border: 1px solid black">F</td>
-                        <td style="border: 1px solid black">15</td>
-                        <td style="border: 1px solid">Direito</td>
+                        <td>15858484</td>
+                        <td class="df-color">DF</td>
+                        <td>F</td>
+                        <td>15</td>
+                        <td>Direito</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">15898351</td>
-            
-                        <td style="border: 1px solid black">M</td>
-                        <td style="border: 1px solid black">16</td>
-                        <td style="border: 1px solid">Comunicação Social(Publicidade)</td>
-            
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid black">16001227</td>
-                        <td style="border: 1px solid black"class="mt-color">MT</td>
-                        <td style="border: 1px solid black">F</td>
-                        <td style="border: 1px solid black">15</td>
-                        <td style="border: 1px solid">Matemática</td>
+                        <td>15898351</td>
+                        <td class="df-color">DF</td>
+                        <td>M</td>
+                        <td>16</td>
+                        <td>Comunicação Social(Publicidade)</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">16001605</td>
-                        <td style="border: 1px solid black" rowspan="2">GO</td>
-                        <td style="border: 1px solid black">F</td>
-                        <td style="border: 1px solid black">17</td>
-                        <td style="border: 1px solid">Educação Física</td>
+                        <td>16001227</td>
+                        <td class="mt-color">MT</td>
+                        <td>F</td>
+                        <td>15</td>
+                        <td>Matemática</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">16005386</td>
-            
-                        <td style="border: 1px solid black">F</td>
-                        <td style="border: 1px solid black">16</td>
-                        <td style="border: 1px solid">Direito</td>
-            
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid black">16005419</td>
-                        <td style="border: 1px solid black"class="mt-color">MT</td>
-                        <td style="border: 1px solid black">F</td>
-                        <td style="border: 1px solid black">16</td>
-                        <td style="border: 1px solid">Engenharia Florestal</td>
+                        <td>16001605</td>
+                        <td class="go-color">GO</td>
+                        <td>F</td>
+                        <td>17</td>
+                        <td>Educação Física</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">16005600</td>
-                        <td style="border: 1px solid black"class="df-color">DF</td>
-                        <td style="border: 1px solid black">M</td>
-                        <td style="border: 1px solid black">15</td>
-                        <td style="border: 1px solid">Direito</td>
+                        <td>16005386</td>
+                        <td class="go-color">GO</td>
+                        <td>F</td>
+                        <td>16</td>
+                        <td>Direito</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">16005994</td>
-                        <td style="border: 1px solid black"class="ms-color">MS</td>
-                        <td style="border: 1px solid black">F</td>
-                        <td style="border: 1px solid black">17</td>
-                        <td style="border: 1px solid">Engenharia de Software</td>
+                        <td>16005419</td>
+                        <td class="mt-color">MT</td>
+                        <td>F</td>
+                        <td>16</td>
+                        <td>Engenharia Florestal</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">16013024</td>
-                        <td style="border: 1px solid black"class="mt-color">MT</td>
-                        <td style="border: 1px solid black">M</td>
-                        <td style="border: 1px solid black">16</td>
-                        <td style="border: 1px solid">Engenharia Elétrica</td>
+                        <td>16005600</td>
+                        <td class="df-color">DF</td>
+                        <td>M</td>
+                        <td>15</td>
+                        <td>Direito</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">16016149</td>
-                        <td style="border: 1px solid black" class="go-color">GO</td>
-                        <td style="border: 1px solid black">M</td>
-                        <td style="border: 1px solid black">16</td>
-                        <td style="border: 1px solid">Letras</td>
+                        <td>16005994</td>
+                        <td class="ms-color">MS</td>
+                        <td>F</td>
+                        <td>17</td>
+                        <td>Engenharia de Software</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">16018985</td>
-                        <td style="border: 1px solid black" class="df-color">DF</td>
-                        <td style="border: 1px solid black">F</td>
-                        <td style="border: 1px solid black">15</td>
-                        <td style="border: 1px solid">Artes Visuais</td>
+                        <td>16013024</td>
+                        <td class="mt-color">MT</td>
+                        <td>M</td>
+                        <td>16</td>
+                        <td>Engenharia Elétrica</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">16019248</td>
-                        <td style="border: 1px solid black"class="ms-color">MS</td>
-                        <td style="border: 1px solid black">M</td>
-                        <td style="border: 1px solid black">16</td>
-                        <td style="border: 1px solid">Direito</td>
+                        <td>16016149</td>
+                        <td class="go-color">GO</td>
+                        <td>M</td>
+                        <td>16</td>
+                        <td>Letras</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">16019259</td>
-                        <td style="border: 1px solid black" class="go-color">GO</td>
-                        <td style="border: 1px solid black">M</td>
-                        <td style="border: 1px solid black">16</td>
-                        <td style="border: 1px solid">Medicina Veterinária</td>
+                        <td>16018985</td>
+                        <td class="df-color">DF</td>
+                        <td>F</td>
+                        <td>15</td>
+                        <td>Artes Visuais</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">16023157</td>
-                        <td style="border: 1px solid black" rowspan="2" class="df-color">DF</td>
-                        <td style="border: 1px solid black">M</td>
-                        <td style="border: 1px solid black">16</td>
-                        <td style="border: 1px solid">Comunicação Social(Jornalismo)</td>
+                        <td>16019248</td>
+                        <td class="ms-color">MS</td>
+                        <td>M</td>
+                        <td>16</td>
+                        <td>Direito</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">16023762</td>
-            
-                        <td style="border: 1px solid black">M</td>
-                        <td style="border: 1px solid black">17</td>
-                        <td style="border: 1px solid">Engenharia Civil</td>
-            
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid black">16043178</td>
-                        <td style="border: 1px solid black"class="ms-color">MS</td>
-                        <td style="border: 1px solid black">F</td>
-                        <td style="border: 1px solid black">16</td>
-                        <td style="border: 1px solid">Direito</td>
+                        <td>16019259</td>
+                        <td class="go-color">GO</td>
+                        <td>M</td>
+                        <td>16</td>
+                        <td>Medicina Veterinária</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">16056907</td>
-                        <td style="border: 1px solid black" class="go-color">GO</td>
-                        <td style="border: 1px solid black">M</td>
-                        <td style="border: 1px solid black">15</td>
-                        <td style="border: 1px solid">Engenharia Elétrica</td>
+                        <td>16023157</td>
+                        <td class="df-color">DF</td>
+                        <td>M</td>
+                        <td>16</td>
+                        <td>Comunicação Social(Jornalismo)</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">16057708</td>
-                        <td style="border: 1px solid black"class="ms-color">MS</td>
-                        <td style="border: 1px solid black">M</td>
-                        <td style="border: 1px solid black">16</td>
-                        <td style="border: 1px solid">Letras</td>
+                        <td>16023762</td>
+                        <td class="df-color">DF</td>
+                        <td>M</td>
+                        <td>17</td>
+                        <td>Engenharia Civil</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">16057711</td>
-                        <td style="border: 1px solid black" class="go-color">GO</td>
-                        <td style="border: 1px solid black">M</td>
-                        <td style="border: 1px solid black">14</td>
-                        <td style="border: 1px solid">Engenharia de Software</td>
+                        <td>16043178</td>
+                        <td class="ms-color">MS</td>
+                        <td>F</td>
+                        <td>16</td>
+                        <td>Direito</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">15889397</td>
-                        <td style="border: 1px solid black"class="mt-color">MT</td>
-                        <td style="border: 1px solid black">F</td>
-                        <td style="border: 1px solid black">16</td>
-                        <td style="border: 1px solid">Comunicação Social(Publicidade)</td>
+                        <td>16056907</td>
+                        <td class="go-color">GO</td>
+                        <td>M</td>
+                        <td>15</td>
+                        <td>Engenharia Elétrica</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">15889403</td>
-                        <td style="border: 1px solid black"class="ms-color">MS</td>
-                        <td style="border: 1px solid black">F</td>
-                        <td style="border: 1px solid black">15</td>
-                        <td style="border: 1px solid">Letras</td>
+                        <td>16057708</td>
+                        <td class="ms-color">MS</td>
+                        <td>M</td>
+                        <td>16</td>
+                        <td>Letras</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">15889431</td>
-                        <td style="border: 1px solid black"class="mt-color">MT</td>
-                        <td style="border: 1px solid black">M</td>
-                        <td style="border: 1px solid black">15</td>
-                        <td style="border: 1px solid">Economia</td>
+                        <td>16057711</td>
+                        <td class="go-color">GO</td>
+                        <td>M</td>
+                        <td>14</td>
+                        <td>Engenharia de Software</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">15890838</td>
-                        <td style="border: 1px solid black"rowspan="2" class="df-color">DF</td>
-                        <td style="border: 1px solid black">F</td>
-                        <td style="border: 1px solid black">16</td>
-                        <td style="border: 1px solid">Letras</td>
+                        <td>15889397</td>
+                        <td class="mt-color">MT</td>
+                        <td>F</td>
+                        <td>16</td>
+                        <td>Comunicação Social(Publicidade)</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">15890839</td>
-            
-                        <td style="border: 1px solid black">M</td>
-                        <td style="border: 1px solid black">15</td>
-                        <td style="border: 1px solid">Direito</td>
-            
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid black">16053423</td>
-                        <td style="border: 1px solid black"class="ms-color">MS</td>
-                        <td style="border: 1px solid black">F</td>
-                        <td style="border: 1px solid black">15</td>
-                        <td style="border: 1px solid">Comunicação Social(Audiovisual)</td>
+                        <td>15889403</td>
+                        <td class="ms-color">MS</td>
+                        <td>F</td>
+                        <td>15</td>
+                        <td>Letras</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">16099718</td>
-                        <td style="border: 1px solid black"class="mt-color">MT</td>
-                        <td style="border: 1px solid black">M</td>
-                        <td style="border: 1px solid black">16</td>
-                        <td style="border: 1px solid">Medicina Veterinária</td>
+                        <td>15889431</td>
+                        <td class="mt-color">MT</td>
+                        <td>M</td>
+                        <td>15</td>
+                        <td>Economia</td>
             
                     </tr>
                     <tr>
-                        <td style="border: 1px solid black">16115225</td>
-                        <td style="border: 1px solid black" class="go-color">GO</td>
-                        <td style="border: 1px solid black">M</td>
-                        <td style="border: 1px solid black">16</td>
-                        <td style="border: 1px solid">Engenharia Civil</td>
+                        <td>15890838</td>
+                        <td class="df-color">DF</td>
+                        <td>F</td>
+                        <td>16</td>
+                        <td>Letras</td>
+            
+                    </tr>
+                    <tr>
+                        <td>15890839</td>
+                        <td class="df-color">DF</td>
+                        <td>M</td>
+                        <td>15</td>
+                        <td>Direito</td>
+            
+                    </tr>
+                    <tr>
+                        <td>16053423</td>
+                        <td class="ms-color">MS</td>
+                        <td>F</td>
+                        <td>15</td>
+                        <td>Comunicação Social(Audiovisual)</td>
+            
+                    </tr>
+                    <tr>
+                        <td>16099718</td>
+                        <td class="mt-color">MT</td>
+                        <td>M</td>
+                        <td>16</td>
+                        <td>Medicina Veterinária</td>
+            
+                    </tr>
+                    <tr>
+                        <td>16115225</td>
+                        <td class="go-color">GO</td>
+                        <td>M</td>
+                        <td>16</td>
+                        <td>Engenharia Civil</td>
             
                     </tr>
             
@@ -376,18 +367,13 @@ Enviar no espaço do exercício do Class, com o título igual ao desse post, at�
     <p>Uma graduação em Letras aborda a origem e o desenvolvimento da gramática e da literatura de um
         idioma — que pode ser tanto a sua língua nativa quanto uma estrangeira. É possível estudar Português,
         Libras, Inglês, Espanhol ou outros idiomas, dependendo da grade curricular do curso pelo qual você
-        optar. Assim como vários cursos de graduação, é possível cursar Letras nas modalidades bacharelado
-        ou licenciatura — esta última tem como foco a formação de professores. Geralmente, a faculdade tem
-        duração de quatro anos e a estrutura do curso depende de cada instituição de ensino. Dessa forma,
-        há uma grande variedade para os estudantes escolherem.</p>
+        optar. </p>
     <h4>Publicidade e Propaganda</h4>
     <p> Publicidade e Propaganda
         O curso de Publicidade e Propaganda forma profissionais especializados em campanhas e peças
         publicitárias. Durante as aulas, o estudante aprende a planejar, criar, produzir, difundir e gerenciar
         a comunicação publicitária, além de lidar com ações promocionais e de incentivo, identidade corporativa,
-        eventos, patrocínio e atividades de marketing e assessoria. O profissional de Publicidade e Propaganda
-        também faz a arte de embalagens, cria logomarcas, define os meios de comunicação mais adequados à campanha
-        e ao público-alvo, cria os textos e as imagens e acompanha sua produção.</p>
+        eventos, patrocínio e atividades de marketing e assessoria.</p>
     <h4>Jornalismo</h4>
     <p>O curso de Jornalismo forma profissionais capazes de produzir notícias para meios de comunicação,
         como jornais, revistas, rádio, TV e internet. Para isso, o estudante aprende a investigar, compreender,
@@ -395,37 +381,16 @@ Enviar no espaço do exercício do Class, com o título igual ao desse post, at�
     <h4>Audiovisual</h4>
     <p>O profissional formado em Produção Audiovisual trabalha na elaboração e produção de conteúdos
         publicitários, documentais, jornalísticos e artísticos, o que inclui roteiro, fotografia, iluminação,
-        sonorização e finalização. Sua participação é fundamental na confecção de vídeos e filmes. Além disso,
-        quem se forma em Produção Audiovisual pode atuar em cinematecas, museus de imagens e som, rádios e centros
-        de documentação privados e estatais. É um campo de trabalho amplo e que está em expansão, pois lida
-        com todos os tipos de linguagem: cinema, televisão, internet e todas as produções que conjugam imagem
-        e som.</p>
+        sonorização e finalização. Sua participação é fundamental na confecção de vídeos e filmes.</p>
     <h4>Medicina Veterinária</h4>
     <p>A Medicina veterinária se dedica ao estudo e tratamento das doenças dos animais, cuidando desde
-        animais de pequeno porte até grandes animais silvestres. Conheça mais sobre a carreira de veterinário!
-        Assim como a Medicina, a Medicina Veterinária é uma carreira ampla, com um campo de atuação que vai
+        animais de pequeno porte até grandes animais silvestres.Assim como a Medicina, a Medicina Veterinária é uma carreira ampla, com um campo de atuação que vai
         desde o acompanhamento da saúde de animais de estimação até o controle de doenças em populações de
-        grandes animais silvestres. Além de cuidar da saúde dos animais, o profissional de Medicina
-        Veterinária pode atuar no controle de qualidade de produtos industriais e em pesquisas na área de
-        zoonoses.
+        grandes animais silvestres. 
     </p>
-    <h4>Artes Visuais</h4>
-    <p>Artes visuais é uma área que abrange qualquer forma de representação visual de cor e forma.
-        As representações visuais dramáticas, como cinema, teatro e música, também se encaixam nessa área.No
-        curso de graduação de Artes Visuais os estudantes apreendem a desenvolver a percepção, reflexão,
-        produção e crítica. Muitas instituições exigem que o futuro aluno passe por uma prova de aptidão,
-         ou prova de Habilidades Específicas.
-    </p>
-    <h4>Arte Cênicas</h4>
-    <p>O curso de Artes Cênicas oferece ao discente um conjunto de técnicas utilizadas para montagem,
-        interpretação e direção de espetáculos. O aluno aprende a desenvolver suas habilidades corporais e
-        de voz, além de conhecer assuntos específicos sobre história, filosofia etc. Por trabalhar muito
-        aspectos voltados à mente humana, o aluno desenvolve habilidades que podem ser utilizadas no dia
-        a dia, como a criatividade e memorização. Isso se deve muito as aulas que exigem bastante concentração
-        e improviso por parte do discente.</p>
-   </article>
-
-   <aside>
+    </article>
+   
+    <aside>
     <h2>Sobre o autor</h2>
     
      <h3>Thatyara Alves Gomes</h3>
@@ -444,13 +409,18 @@ Enviar no espaço do exercício do Class, com o título igual ao desse post, at�
      </ul>
  
 </aside>
+<footer>
+    <nav class="redes">
+        <h3>Redes</h3>
+        <a href="#"><img src="whatsapp-logo.png" alt="whatsapp-logo"></a>
+        <a href="#"><img src="Instagram-Icon.png" alt="instagram-logo"></a>
+        <a href="#"><img src="facebook-logo.png" alt="facebook-logo"></a>
+    </nav>
+</footer>
 
 
-    <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/71-GucBaM8U" title="YouTube video
-        player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-        picture-in-picture" allowfullscreen></iframe>
-    </div>
+
+   
 
 </body>
 </html>
