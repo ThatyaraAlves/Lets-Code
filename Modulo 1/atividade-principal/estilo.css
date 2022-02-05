@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&display=swap');
 :root{
     --cor0:#F2D8C9; 
     --cor1:#D9BEB8;
@@ -11,16 +12,17 @@
 
     --fonte-header: 'Dancing Script', Arial;
     --fonte-padrao: 'Times New Roman', Times, serif;
-    --fonte-destaque: 'Source Serif 4';
+    --fonte-destaque: 'Abhaya Libre';
     --fonte-cadastro: 'Zen Kurenaido';
 }
 html {
     scroll-behavior: smooth;
-    overflow-y: scroll;
+    overflow-x: hidden;
   }
 body{
     width: 100%;
 }
+
 
 header{
     font-family: var(--fonte-header);
@@ -61,9 +63,7 @@ div.home-page  a{
     font: normal bold 1.1em var(--fonte-padrao);
     margin: 5px 20px 5px 20px;
     transition-duration: 0.3s;
-    /*     opacity: 1;
-    transition: opacity .4s;
-    transition-delay: 0ms; */
+    
 }
 
 nav.home-page a:hover{
@@ -133,7 +133,7 @@ div{
   
   
   .flip-card-back {
-     background-color: #f5efec;
+     background-color: #f3ece8;
     color: black;
     transform: rotateY(180deg);
     
@@ -147,7 +147,7 @@ div{
       margin: 3px;
       padding-left: 5px;
       padding-right: 5px;
-      font-size: 0.9em;
+      
   }
   h2.plantas{
       font-family: var(--fonte-destaque);
@@ -173,7 +173,7 @@ div{
       background-color: var(--cor1);
       margin: 10px 10px 20px 10px;
       padding: 10px 10px 10px 10px;
-      background-image: url('imagens/background-plantas6.jpg');
+      background-image: url('imagens/background-plantas1.jpg');
       background-attachment: fixed;
       max-width: 100%;
       min-width: 320px;
@@ -311,18 +311,7 @@ table, th, td {
         padding: 10px 10px 10px 10px;
         max-width: 40%;
     }
-    div.redes a:hover{
-        background: #924b44;
-        
-        border-radius:50%;
-        -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
-        
-        
-    }
     
-
     footer nav{
         height: 100px;
         background: #924b44;
